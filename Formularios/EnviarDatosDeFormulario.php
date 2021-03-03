@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +10,7 @@
 </head>
 <body>
 
-    <form action="recibe.php" methods="">
+    <form action="recibe.php" method="post">
         <input type="text" placeholder="Nombre:" name="nombre">
         <br>
 
